@@ -1,0 +1,9 @@
+name: 02-workflow-events
+
+on: push
+
+jobs:
+  echo: 
+      runs_on: ubuntu-latest
+      name: show the trigger
+  
